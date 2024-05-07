@@ -18,7 +18,7 @@ public class Main {
             bubbleSort(array, x);
         }
         else {
-            Expression x = (a,b) -> a > b;
+            Expression x = (a,b) -> a < b;
             bubbleSort(array, x);
         }
         System.out.println("\n Отсортированный массив");
